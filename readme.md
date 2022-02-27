@@ -14,7 +14,7 @@ NIM   : 13520116
 Kelas : 2
 ```
 
-## cara penggunaan
+## Cara Penggunaan
 
 lakukan command berikut pada terminal
 

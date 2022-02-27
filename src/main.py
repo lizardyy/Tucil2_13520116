@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # implementasi Convex Hull
 import myConvexHull as Ch
 
-data = datasets.load_breast_cancer() #data yang dipakai
+data = datasets.load_iris() #data yang dipakai
 
 #create a DataFrame
 df = pd.DataFrame(data.data, columns=data.feature_names)
@@ -32,5 +32,6 @@ for i in range(len(data.target_names)):
     plt.scatter(bucket[:, 0], bucket[:, 1], label=data.target_names[i])
     plt.plot(hull[0], hull[1], colors[i])
 plt.legend()
+
 #  menampilkan hasil convex hull
 plt.show()
