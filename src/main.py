@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # implementasi Convex Hull
 import myConvexHull as Ch
 
-data = datasets.load_iris() #data yang dipakai
+data = datasets.load_breast_cancer() #data yang dipakai
 
 #create a DataFrame
 df = pd.DataFrame(data.data, columns=data.feature_names)
@@ -21,7 +21,7 @@ df.head()
 
 plt.figure(figsize=(10, 6))
 colors = ['b', 'r', 'g']
-plt.title('ash vs alcalinity_of_ash')
+plt.title('sepal length vs sepal witdh') # title grafik
 plt.xlabel(data.feature_names[0]) # data untuk x
 plt.ylabel(data.feature_names[1]) # data untuk y
 for i in range(len(data.target_names)):

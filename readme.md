@@ -64,3 +64,9 @@ dan
 ```
 bucket = bucket.iloc[:, [0, 1]].values
 ```
+
+dan mengganti title dari grafik jika diperlukan, pada
+
+```
+plt.title('sepal length vs sepal witdh')
+```
