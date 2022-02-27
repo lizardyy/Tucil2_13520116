@@ -225,7 +225,7 @@ def quickSort(array, low, high):
 
         # rekursif sebelah kiri pivot
         quickSort(array, low, pi - 1)
-        # recursive sebelah kanan pivot
+        # rekursif sebelah kanan pivot
         quickSort(array, pi + 1, high)
 
     return array
