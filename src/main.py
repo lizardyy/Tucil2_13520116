@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # implementasi Convex Hull
 import myConvexHull as Ch
 
-data = datasets.load_breast_cancer() #data yang dipakai
+data = datasets.load_iris() #data yang dipakai
 
 #create a DataFrame
 df = pd.DataFrame(data.data, columns=data.feature_names)
