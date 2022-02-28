@@ -41,7 +41,7 @@ berikut dataset lain yang dapat digunakan
 1. wine
 
 ```
-data = datasets.load_iris()
+data = datasets.load_wine()
 ```
 
 2. breast_cancer
