@@ -30,13 +30,13 @@ Perlu diperhatikan pada file main.py data default yang digunakan adalah dataset 
 
 ## Mengganti dataset
 
-Sebelum mengganti dataset perlu diperhatikan dataset yang dapat digunakan pada kode ini yaitu (wine dan breast_cancer). Pada kode ini default dasaet yang digunakan adalah dataset iris. Untuk mengganti dataset, Pada file main.py ganti dataset menjadi data yang lain pada
+Sebelum mengganti dataset perlu diperhatikan dataset yang dapat digunakan pada kode ini yaitu (iris, wine dan breast_cancer). Pada kode ini default dasaet yang digunakan adalah dataset iris. Untuk mengganti dataset, Pada file main.py ganti dataset menjadi data yang lain pada
 
 ```
 data = datasets.load_iris()
 ```
 
-berikut data yang dapat digunakan
+berikut dataset lain yang dapat digunakan
 
 1. wine
 
